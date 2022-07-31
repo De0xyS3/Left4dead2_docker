@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  l4d2:
+    container_name: l4d2-github
+    image: l4fd2w0lf
+    ports:
+    - "27015:27015"
+    - "27015:27015/udp"
+    environment:
+      - HOSTNAME=L4D2-Dock
+      - REGION=2
+      - MAP="c7m1_docks"
+      - MODE="campaign"
+      - GROUP=42565145
+      - PLAYERS=12
+      - STEAMID=STEAM_0:1:165453995
+      - STEAMNAME=DONQUIXOTE
