@@ -2,7 +2,7 @@ version: '3.8'
 services:
   l4d2:
     container_name: l4d2-github
-    image: wolfportuguez/l4d2:latest
+    image: de0xys/left4dead2:latest
     ports:
     - "27015:27015"
     - "27015:27015/udp"
