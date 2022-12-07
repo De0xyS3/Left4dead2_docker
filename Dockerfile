@@ -20,7 +20,7 @@ RUN ./steamcmd.sh +login anonymous +force_install_dir ./l4d2 +app_update 222860 
 ##################
 #Donwload plugins#
 ##################
-RUN wget https://www.dropbox.com/s/30sy3mt20paqlhz/plugins.zip && unzip plugins.zip
+RUN wget https://www.dropbox.com/s/2na0i7kc154wu4g/plugins.zip && unzip plugins.zip
 RUN cd  plugins/ && cp -r addons /home/louis/l4d2/left4dead2/ && cp -r cfg /home/louis/l4d2/left4dead2/
 ###################
 #Download l4dtoolz#
